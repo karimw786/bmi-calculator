@@ -11,14 +11,12 @@ export default function App() {
   }
 
   return (
-    <>
-      <header>
-        <Header />
-      </header>
+    <div>
+      <Header />
       <main>
         <UserInput passBmiToParent={passBmiToParent} />
         <CalculatedBmi bmi={calculatedBmi} />     
       </main>      
-    </>
+    </div>
   )
 }
